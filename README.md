@@ -2,10 +2,10 @@
 This is the first repository for project phase 3 
 
 The repository for project phase 1 is: https://github.com/wutongliuxue/SE2250-Project.git
-The repository for project phase 1 submission is: (same as above)
+<li>The repository for project phase 1 submission is: (same as above)</li>
 
 The repository for project phase 2 is: https://github.com/wutongliuxue/SE2250-Project-Phase2.git
-The repository for project phase 2 submission is: https://github.com/wutongliuxue/SE2250-Project-Phase2-Main.git
+The repository for project phase 2 submission is: https://github.com/wutongliuxue/SE2250-Project-Phase2-Main.git 
 
 Update this README.md file every time when you push commit. 
 
