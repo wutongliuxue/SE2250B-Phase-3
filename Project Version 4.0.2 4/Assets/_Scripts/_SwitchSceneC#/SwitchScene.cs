@@ -16,7 +16,30 @@ public class SwitchScene : MonoBehaviour
     }
 
     public void Back(){
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
+    public void Story(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void exitStory(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+    }
+
+    public void Tutorial(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+    }
+
+    public void exitTutorial(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
+
+    public void AboutUs(){
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+    }
+
+    public void exitAboutUs(){
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+    }
 }
