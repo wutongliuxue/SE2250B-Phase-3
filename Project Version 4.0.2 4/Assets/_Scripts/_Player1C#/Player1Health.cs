@@ -24,12 +24,7 @@ public class Player1Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hit = animator.GetFloat("Hit");
-        if(curHealth > 0)
-        {
-            hit -= Time.deltaTime * 3;
-        animator.SetFloat("Hit",hit);
-        }
+       
         if(curHealth < 1)
         {
             animator.SetBool("Death",true);
