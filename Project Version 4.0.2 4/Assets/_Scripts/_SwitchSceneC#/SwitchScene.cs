@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 public class SwitchScene : MonoBehaviour
 {
     public void playGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
 
     public void Back(){
