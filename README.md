@@ -17,3 +17,4 @@ Update this README.md file every time when you push commit.
 5. Create a code for opening the door
 6. Make the player able to teleport from Outside to Basement 
 7. Update Switch Scene: When the player click play, it will lead to the basement scene. 
+8. Rebuild the map boundary 
