@@ -56,7 +56,7 @@ public class Player1Health : MonoBehaviour
     {
         curHealth -= damageValue;
         healthBar.value = curHealth;
-         animator.SetFloat("Hit",1);
+         //animator.SetFloat("Hit",1);
     }
 
 }
