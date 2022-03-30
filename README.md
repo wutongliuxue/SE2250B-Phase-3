@@ -16,3 +16,4 @@ Update this README.md file every time when you push commit.
 4. Update GameUI: fixed issue exit button in about us scene is not able to click 
 5. Create a code for opening the door
 6. Make the player able to teleport from Outside to Basement 
+7. Update Switch Scene: When the player click play, it will lead to the basement scene. 
