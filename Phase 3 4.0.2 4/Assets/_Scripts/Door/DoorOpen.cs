@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class DoorOpen : MonoBehaviour
 {
      public GameObject ui;
+     public GameObject doorOpener;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,8 @@ public class DoorOpen : MonoBehaviour
          ui.SetActive(true);
          if((other.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.E))
          {
-             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+            //  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+            doorOpener.gameObject.SetActive(false);
          }
     }
     void OnTriggerExit()
