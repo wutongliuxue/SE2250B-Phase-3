@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/_Scenes/AboutUsUI.unity
     guid: d3c9319d704b14f44ad3f7e47c59b0c0
   - enabled: 1
-    path: Assets/_Scenes/EmptyScene.unity
-    guid: 04512524bf6884e3582e4af8f9548491
+    path: Assets/_Scenes/Basement.unity
+    guid: db9d4f730a8cf4b3fa80f5f2c1d7dc1a
   - enabled: 1
     path: Assets/_Scenes/Out2.unity
     guid: 925ada1cd5c204f64867f0f37d81db2c
