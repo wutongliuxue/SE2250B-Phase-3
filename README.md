@@ -21,3 +21,5 @@ Update this README.md file every time when you push commit.
 9.  Move the basement into the outside map 
 10. Three outside maps are established in order to switch characters 
 11. Player can switch different character, new UI is established 
+12. Fix the basement without a roof error
+13. Import new female character into the game
