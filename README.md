@@ -24,3 +24,4 @@ Update this README.md file every time when you push commit.
 12. Fix the basement without a roof error
 13. Import new female character into the game
 14. Original Basement Scene is removed, delete unused assets, naming convention fixed 
+15. The second character has been placed into the map, and inherited the code from first player 
