@@ -2843,7 +2843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1481814564}
-  Player: {fileID: 0}
+  Player: {fileID: 633141740}
   RightFist: {fileID: 0}
   LeftFist: {fileID: 0}
 --- !u!114 &1481814561
@@ -3216,7 +3216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1661439481}
-  Player: {fileID: 0}
+  Player: {fileID: 633141740}
   RightFist: {fileID: 0}
   LeftFist: {fileID: 0}
 --- !u!65 &1661439483
@@ -3259,7 +3259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680791981}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.12, z: -1.92}
+  m_LocalPosition: {x: 0, y: 2.12, z: -2.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 633141740}
