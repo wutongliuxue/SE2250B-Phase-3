@@ -10,11 +10,13 @@ This is the first repository for project phase 3
 
 Update this README.md file every time when you push commit. 
 
-1. Create a phase 3 repository 
-2. Push the project into the repository 
-3. Create Three scenes: AboutUsUI, TutorialUI, StoryUI (these three scenes are connect to the GameUI scene)
-4. Update GameUI: fixed issue exit button in about us scene is not able to click 
-5. Create a code for opening the door
-6. Make the player able to teleport from Outside to Basement 
-7. Update Switch Scene: When the player click play, it will lead to the basement scene. 
-8. Rebuild the map boundary 
+1.  Create a phase 3 repository 
+2.  Push the project into the repository 
+3.  Create Three scenes: AboutUsUI, TutorialUI, StoryUI (these three scenes are connect to the GameUI scene)
+4.  Update GameUI: fixed issue exit button in about us scene is not able to click 
+5.  Create a code for opening the door
+6.  Make the player able to teleport from Outside to Basement 
+7.  Update Switch Scene: When the player click play, it will lead to the basement scene. 
+8.  Rebuild the map boundary 
+9.  Move the basement into the outside map 
+10. Three outside maps are established in order to switch characters 
