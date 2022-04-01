@@ -20,3 +20,4 @@ Update this README.md file every time when you push commit.
 8.  Rebuild the map boundary 
 9.  Move the basement into the outside map 
 10. Three outside maps are established in order to switch characters 
+11. Player can switch different character, new UI is established 
