@@ -26,3 +26,4 @@ Update this README.md file every time when you push commit.
 14. Original Basement Scene is removed, delete unused assets, naming convention fixed 
 15. The second character has been placed into the map, and inherited the code from first player 
 16. Fix Merge Error with 14, 15. 
+17. Flying Animation is established in Unity 
