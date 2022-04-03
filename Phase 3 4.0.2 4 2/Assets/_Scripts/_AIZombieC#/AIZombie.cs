@@ -34,4 +34,11 @@ public class AIZombie : MonoBehaviour
             
         }
     }
+
+    void OnCollisionEnter(Collision collision) {
+        if (collision.collider.CompareTag("bullet")) {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }
