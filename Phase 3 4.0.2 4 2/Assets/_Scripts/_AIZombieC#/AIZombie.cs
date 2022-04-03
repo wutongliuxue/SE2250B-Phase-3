@@ -12,7 +12,7 @@ public class AIZombie : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    
+        enemy = GetComponent<NavMeshAgent>();
     }
     public void activatePunsh(){
         RightFist.GetComponent<Collider>().enabled = true;
@@ -30,8 +30,11 @@ public class AIZombie : MonoBehaviour
         enemy.SetDestination(Player.position);
         if (enemy.remainingDistance<4f)
         {
-            GetComponent<Animator>().SetTrigger("Attack");
+            enemy.isStopped = true;
             
+        } else{
+            enemy.isStopped = false;
+
         }
     }
 }

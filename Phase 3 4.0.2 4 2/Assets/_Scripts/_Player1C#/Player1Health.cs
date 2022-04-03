@@ -14,7 +14,7 @@ public class Player1Health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        curHealth = maxHealth;
+        curHealth = 20;
         healthBar.value = curHealth;
         healthBar.maxValue = maxHealth;
         animator = GetComponent<Animator>();
@@ -52,12 +52,21 @@ public class Player1Health : MonoBehaviour
            SendDamage(20);
            
         }
+        if(collision.gameObject.tag == "Cat"){
+            Heal(25);
+        }
     }
     public void SendDamage(float damageValue)
     {
         curHealth -= damageValue;
         healthBar.value = curHealth;
          //animator.SetFloat("Hit",1);
+    }
+    public void Heal(float healValue)
+    {
+        curHealth += healValue;
+        healthBar.value = curHealth;
+       
     }
 
 }
