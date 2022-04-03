@@ -27,3 +27,4 @@ Update this README.md file every time when you push commit.
 15. The second character has been placed into the map, and inherited the code from first player 
 16. Fix Merge Error with 14, 15. 
 17. Flying Animation is established in Unity 
+18. Added a somewhat functional shooting system
