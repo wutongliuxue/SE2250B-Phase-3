@@ -29,7 +29,10 @@ public class Player1Health : MonoBehaviour
         {
             animator.SetBool("Death",true);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Wait();
             SceneManager.LoadScene(6);
+            Wait();
+            SceneManager.LoadScene(1);
 
         }
         if(Input.GetKeyUp(KeyCode.W))
@@ -58,6 +61,11 @@ public class Player1Health : MonoBehaviour
         curHealth -= damageValue;
         healthBar.value = curHealth;
          //animator.SetFloat("Hit",1);
+    }
+
+
+    IEnumerator Wait(){
+        yield return new WaitForSeconds(5.0f);
     }
 
 }
