@@ -55,6 +55,10 @@ public class Player1Health : MonoBehaviour
            SendDamage(20);
            
         }
+
+        if(collision.gameObject.tag == "Cat"){
+            Heal(25);
+        }
     }
     public void SendDamage(float damageValue)
     {
@@ -66,6 +70,13 @@ public class Player1Health : MonoBehaviour
 
     IEnumerator Wait(){
         yield return new WaitForSeconds(5.0f);
+    }
+
+    public void Heal(float healValue)
+    {
+        curHealth += healValue;
+        healthBar.value = curHealth;
+       
     }
 
 }
