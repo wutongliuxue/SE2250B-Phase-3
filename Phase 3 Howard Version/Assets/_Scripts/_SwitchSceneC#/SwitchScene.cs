@@ -23,8 +23,12 @@ public class SwitchScene : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
+    public void player3(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void exitSelectPlayer(){
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 8);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 8);
     }
 
     public void Back(){
