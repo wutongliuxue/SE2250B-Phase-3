@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour
     //Defining the bullet:
     public GameObject bullet;//bullet object
     public float shootForce = 125;//bullet force
-    public float upwardForce = 1;
+    public float upwardForce = 0.5f;
 
     //Other references:
     public Transform attackPoint;//attacking direction reference

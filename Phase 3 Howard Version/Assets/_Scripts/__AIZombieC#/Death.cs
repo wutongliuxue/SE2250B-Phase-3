@@ -20,6 +20,12 @@ public class Death : MonoBehaviour
         if((collision.gameObject.tag == "Player") && Input.GetKey(KeyCode.J))
         {
            Destroy(this.gameObject);
-        }}
+        }
 
+        if(collision.gameObject.tag == "bullet")
+        {
+           Destroy(this.gameObject);
+        }
+        
+      }
 }

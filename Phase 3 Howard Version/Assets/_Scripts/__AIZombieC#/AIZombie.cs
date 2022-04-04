@@ -7,8 +7,6 @@ public class AIZombie : MonoBehaviour
 {
     public NavMeshAgent enemy;
     public Transform Player;
-    public GameObject RightFist;
-    public GameObject LeftFist;
     private Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -16,15 +14,7 @@ public class AIZombie : MonoBehaviour
         animator = GetComponent<Animator>();
     
     }
-    public void activatePunsh(){
-        RightFist.GetComponent<Collider>().enabled = true;
-        LeftFist.GetComponent<Collider>().enabled = true;
-
-    }
-    public void deactivatePunsh(){
-        RightFist.GetComponent<Collider>().enabled = false;
-        LeftFist.GetComponent<Collider>().enabled = false;
-    }
+ 
 
     // Update is called once per frame
     void Update()
@@ -41,7 +31,6 @@ public class AIZombie : MonoBehaviour
         if((collision.gameObject.tag == "Player") )
         {
            animator.SetBool("Attack",true);
-
            
         }
 
