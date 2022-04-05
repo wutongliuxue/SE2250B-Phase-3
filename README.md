@@ -29,3 +29,6 @@ Update this README.md file every time when you push commit.
 17. Flying Animation is established in Unity 
 18. Added a somewhat functional shooting system
 19. Third Character is established. The second character is able to teleport, while the third character is able to fly 
+20. Add shooting and melee for the characters, the monsters can be killed
+21. Add Day 1 Day 2 UI in to the scene 
+
