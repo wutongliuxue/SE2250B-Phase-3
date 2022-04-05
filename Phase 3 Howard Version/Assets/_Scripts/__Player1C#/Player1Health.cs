@@ -29,11 +29,7 @@ public class Player1Health : MonoBehaviour
         {
             animator.SetBool("Death",true);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Wait();
             SceneManager.LoadScene(6);
-            Wait();
-            SceneManager.LoadScene(1);
-
         }
         if(Input.GetKeyUp(KeyCode.W))
         {
