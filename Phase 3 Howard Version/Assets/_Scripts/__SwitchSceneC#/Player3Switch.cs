@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerSwitch : MonoBehaviour
+public class Player3Switch : MonoBehaviour
 {
     void OnTriggerEnter(Collider other){
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(13);
     }
 }
