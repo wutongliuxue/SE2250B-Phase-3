@@ -31,4 +31,5 @@ Update this README.md file every time when you push commit.
 19. Third Character is established. The second character is able to teleport, while the third character is able to fly 
 20. Add shooting and melee for the characters, the monsters can be killed
 21. Add Day 1 Day 2 UI in to the scene 
-
+22. The player is able to travel from day 1 to day 2 
+23. The player can win the game after day 2 
