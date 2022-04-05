@@ -52,12 +52,24 @@ public class Player2Health : MonoBehaviour
            SendDamage(20);
            
         }
+
+        if(collision.gameObject.tag == "Cat"){
+            Heal(25);
+        }
     }
     public void SendDamage(float damageValue)
     {
         curHealth -= damageValue;
         healthBar.value = curHealth;
          //animator.SetFloat("Hit",1);
+    }
+
+
+    public void Heal(float healValue)
+    {
+        curHealth += healValue;
+        healthBar.value = curHealth;
+       
     }
 
 }
