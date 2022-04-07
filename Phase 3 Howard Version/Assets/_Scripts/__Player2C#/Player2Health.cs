@@ -5,23 +5,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Player2Health : MonoBehaviour
+public class Player2Health : Player1Health
 {
-    public float curHealth;
-    public float maxHealth;
-    public Slider healthBar;
-    private Animator animator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        curHealth = maxHealth;
-        healthBar.value = curHealth;
-        healthBar.maxValue = maxHealth;
-        animator = GetComponent<Animator>();
-
-    }
 
     // Update is called once per frame
+    
     void Update()
     {
        
@@ -39,37 +27,11 @@ public class Player2Health : MonoBehaviour
 
         
     }
-    void OnCollisionEnter(Collision collision){
-
-        if(collision.gameObject.tag == "Giant")
-        {
-           SendDamage(15);
-           
-        }
-
-        if(collision.gameObject.tag == "Monster")
-        {
-           SendDamage(20);
-           
-        }
-
-        if(collision.gameObject.tag == "Cat"){
-            Heal(25);
-        }
-    }
-    public void SendDamage(float damageValue)
+    public override void SendDamage(float damageValue)
     {
-        curHealth -= damageValue;
+        curHealth -= 2*damageValue;
         healthBar.value = curHealth;
          //animator.SetFloat("Hit",1);
     }
-
-
-    public void Heal(float healValue)
-    {
-        curHealth += healValue;
-        healthBar.value = curHealth;
-       
-    }
-
+   
 }

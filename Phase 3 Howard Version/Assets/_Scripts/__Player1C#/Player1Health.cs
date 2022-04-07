@@ -10,7 +10,7 @@ public class Player1Health : MonoBehaviour
     public float curHealth;
     public float maxHealth;
     public Slider healthBar;
-    private Animator animator;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,7 +56,7 @@ public class Player1Health : MonoBehaviour
             Heal(25);
         }
     }
-    public void SendDamage(float damageValue)
+    public virtual void SendDamage(float damageValue)
     {
         curHealth -= damageValue;
         healthBar.value = curHealth;
